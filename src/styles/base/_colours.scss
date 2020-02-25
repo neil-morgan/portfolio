@@ -1,0 +1,15 @@
+$primary: #d90368;
+$secondary: #032b43;
+$light: #f7f7f7;
+$dark: #222629;
+$palette: 'dark' $dark, 'light' $light, 'primary' $primary,
+  'secondary' $secondary;
+
+@each $colour in $palette {
+  .bgr-#{nth($colour, 1)} {
+    background-color: nth($colour, 2);
+  }
+  .clr-#{nth($colour, 1)} {
+    color: nth($colour, 2);
+  }
+}

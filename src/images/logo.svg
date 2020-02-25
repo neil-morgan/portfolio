@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<style type="text/css">
+	.logo-fill{fill:#f7f7f7	;}
+</style>
+<g>
+	<polygon class="logo-fill" points="290,200 0,0 0,300 80,300 80,150 290,300 	"/>
+</g>
+<g>
+	<polygon class="logo-fill" points="355,100 210,0 210,95 355,195.3 420,150.3 420,300 500,300 500,0 	"/>
+</g>
+</svg>

@@ -1,0 +1,78 @@
+h1 {
+  @include fp(font-size, 28, 32);
+}
+h2 {
+  @include fp(font-size, 26, 30);
+}
+h3 {
+  @include fp(font-size, 24, 28);
+}
+h4 {
+  @include fp(font-size, 22, 26);
+}
+h5 {
+  @include fp(font-size, 20, 24);
+}
+h6 {
+  @include fp(font-size, 18, 22);
+}
+p,
+li {
+  @include fp(font-size, 16, 18);
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.25em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+hr {
+  position: relative;
+  z-index: 99;
+  color: inherit;
+}
+hr {
+  display: block;
+  border-top: 1px solid currentColor;
+  margin: 1em 0;
+  height: 0;
+  overflow: visible;
+}
+a {
+  &:link {
+    color: $primary;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  &:active {
+    color: blue;
+  }
+}
+ul.bullets {
+  list-style-position: inside;
+  li {
+    display: flex;
+    list-style-type: none;
+    &::before {
+      content: '';
+      align-self: center;
+      background-color: black;
+      border-radius: 50%;
+      margin: 0 0.5rem 0 0;
+      min-height: 0.5rem;
+      min-width: 0.5rem;
+    }
+  }
+}

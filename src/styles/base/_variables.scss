@@ -1,0 +1,9 @@
+$xl: 1200px;
+$lg: 1037px;
+$md: 797px;
+$sm: 615px;
+$xs: 415px;
+$query: 'max-width:';
+$breakpoints: 'all' '', '(#{$query} #{$xl})' 'xl-', '(#{$query} #{$lg})' 'lg-',
+  '(#{$query} #{$md})' 'md-', '(#{$query} #{$sm})' 'sm-',
+  '(#{$query} #{$xs})' 'xs-';
