@@ -4,7 +4,7 @@ import { toggleDrawer } from '../../../state/app'
 
 const DrawerToggle = ({ drawerIsOpen, dispatch, children }) => (
   <div
-    className="drawer-toggle"
+    className="drawer-toggle sm-d-flex"
     onClick={() => dispatch(toggleDrawer(!drawerIsOpen))}
   >
     <a className={'drawer-icon ' + (drawerIsOpen ? 'open' : 'closed')}>

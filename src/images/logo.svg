@@ -2,7 +2,7 @@
 <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
 <style type="text/css">
-	.logo-fill{fill:#f7f7f7	;}
+	.logo-fill{fill:#032b43;}
 </style>
 <g>
 	<polygon class="logo-fill" points="290,200 0,0 0,300 80,300 80,150 290,300 	"/>

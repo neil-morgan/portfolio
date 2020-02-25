@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Site`,
+    title: `Neil Morgan`,
     description: `Description`,
     author: `Neil Morgan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -301,33 +301,33 @@ footer {
       height: 100vh;
     }
     .#{nth($i, 2)}d-none {
-      display: none;
+      display: none !important;
     }
     .#{nth($i, 2)}d-inline {
-      display: inline;
+      display: inline !important;
     }
     .#{nth($i, 2)}d-inline-block {
-      display: inline-block;
+      display: inline-block !important;
     }
     .#{nth($i, 2)}d-block {
-      display: block;
+      display: block !important;
     }
     .#{nth($i, 2)}d-table {
-      display: table;
+      display: table !important;
     }
     .#{nth($i, 2)}d-table-row {
-      display: table-row;
+      display: table-row !important;
     }
     .#{nth($i, 2)}d-table-cell {
-      display: table-cell;
+      display: table-cell !important;
     }
     .#{nth($i, 2)}d-flex {
-      display: -webkit-box;
-      display: flex;
+      display: -webkit-box !important;
+      display: flex !important;
     }
     .#{nth($i, 2)}d-inline-flex {
-      display: -webkit-inline-box;
-      display: inline-flex;
+      display: -webkit-inline-box !important;
+      display: inline-flex !important;
     }
     .#{nth($i, 2)}overflow-auto {
       overflow: auto;

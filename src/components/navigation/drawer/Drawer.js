@@ -1,6 +1,5 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { toggleDrawer } from '../../../state/app'
 
 const Drawer = ({ drawerIsOpen, dispatch, children }) => (
   <>

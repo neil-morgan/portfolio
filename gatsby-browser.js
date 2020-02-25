@@ -4,5 +4,16 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
-export { default as wrapRootElement } from './src/state/ReduxWrapper';
+export const onClientEntry = () => {}
+export const onRouteUpdate = ({ location, prevLocation }) => {
+  console.log(
+    'Navigation from [',
+    prevLocation ? prevLocation.pathname : null,
+    '}',
+    'to {',
+    location.pathname,
+    '}',
+  )
+}
+
+export { default as wrapRootElement } from './src/state/ReduxWrapper'
